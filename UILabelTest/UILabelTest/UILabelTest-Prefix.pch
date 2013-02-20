@@ -1,5 +1,5 @@
 //
-// Prefix header for all source files of the 'LabelTest' target in the 'LabelTest' project
+// Prefix header for all source files of the 'UILabelTest' target in the 'UILabelTest' project
 //
 
 #import <Availability.h>
