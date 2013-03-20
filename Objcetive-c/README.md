@@ -90,4 +90,19 @@ IOS
 	-(int) getage;
 	-(char) getname;
 	-(void）setAge:(int) _age;
+	// 方法类型 (返回类型) 方法名:(参数类型) 参数名
+	// + 表示类方法
+	// - 表示实例方法
 	@end
+	
+#### 方法的调用
+[类名或对象名 方法名];
+如:
+
+	[ClassOrInstance method];
+	[ClassOrInstance method:arg1];
+	[ClassOrInstance method1:arg1 method2:arg2];
+	[[ClassOrinstance method] othermethod];
+
+
+对象名.方法名 （点语法）
