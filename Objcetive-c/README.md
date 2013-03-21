@@ -70,7 +70,7 @@ IOS
 		变量类型 变量名称
 	}
 	//方法的声明…
-
+	@end
 方法的实现:(放在.m文件中)
 
 	@implementation NewClassName
@@ -106,3 +106,17 @@ IOS
 
 
 对象名.方法名 （点语法）
+
+
+2013-03-21
+***
+objective-c中对象通过指针来声明:ClassA *object;
+通过alloc来创建一个对象，然后需要对对象进行初始化（调用init方法），这样这个对象才能使用：
+
+	ClassA *classa = [ClassA alloc];
+	classa = [classa init];
+
+也可以嵌套的形式来调用:
+
+	ClassA *object = [[ClassA alloc] init];
+	
