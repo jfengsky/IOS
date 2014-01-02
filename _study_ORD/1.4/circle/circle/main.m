@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
+#import "circle.h"
+
 int main(int argc, const char * argv[])
 {
 
@@ -15,6 +17,10 @@ int main(int argc, const char * argv[])
         
         // insert code here...
         NSLog(@"Hello, World!");
+        
+        circle* circle1 = [[circle alloc]init];
+        [circle1 print];
+        
         
     }
     return 0;
