@@ -10,10 +10,20 @@
 
 @implementation circle
 
-@synthesize radius;
+// @synthesize radius;
 
 -(void)print{
-    NSLog(@"radius: %d", radius);
+    NSLog(@"radius:%d X:%d Y:%d", radius,x,y);
+}
+
+-(void) setR:(int)_r andX:(int)_x andY:(int)_y{
+    radius = _r;
+    x = _x;
+    y = _y;
+}
+
++(int)allNum{
+    return sum;
 }
 
 @end

@@ -11,10 +11,17 @@
 @interface circle : NSObject
 {
     int radius;
+    int x;
+    int y;
 }
 
-@property(nonatomic) int radius;
+static int sum = 5;
+// @property(nonatomic) int radius;
 
 -(void)print;
+
+-(void) setR:(int)_r andX:(int)_x andY:(int)_y;
+
++(int)allNum;
 
 @end
