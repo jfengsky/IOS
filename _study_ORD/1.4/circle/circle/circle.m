@@ -22,8 +22,9 @@
     y = _y;
 }
 
-+(int)allNum{
-    return sum;
-}
+//+(int)allNum{
+//    return x * y;
+//    return sum;
+//}
 
 @end

@@ -15,7 +15,6 @@
     int y;
 }
 
-static int sum = 5;
 // @property(nonatomic) int radius;
 
 -(void)print;
