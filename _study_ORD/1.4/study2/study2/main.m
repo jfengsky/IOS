@@ -13,10 +13,10 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+        
+        int i = 580;
+        NSString *s = @"hello iphone";
         
     }
     return 0;
 }
-
