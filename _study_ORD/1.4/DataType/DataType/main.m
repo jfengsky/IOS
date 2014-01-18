@@ -1,9 +1,9 @@
 //
 //  main.m
-//  Obcjective
+//  DataType
 //
 //  Created by 姜峰 on 14-1-18.
-//  Copyright (c) 2014年 姜峰. All rights reserved.
+//  Copyright (c) 2014年 jfeng. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
@@ -12,10 +12,9 @@ int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        char a = 120;
-        char b = 240;
-        NSLog(@"%c,%c",a,b);
-        NSLog(@"%i,%i",a,b);
+        
+        // insert code here...
+        NSLog(@"Hello, World!");
         
     }
     return 0;
