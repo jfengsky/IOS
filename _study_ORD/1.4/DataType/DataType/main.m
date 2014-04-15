@@ -13,8 +13,19 @@ int main(int argc, const char * argv[])
 
     @autoreleasepool {
         
-        // insert code here...
-        NSLog(@"Hello, World!");
+//        int i = 0;
+//        while (i < 10) {
+//            NSLog(@"%d", i);
+//            i++;
+//        }
+        int i = 0;
+        do{
+            i++;
+            if (i == 5) {
+                continue;
+            }
+            NSLog(@"%d", i);
+        } while (i< 10);
         
     }
     return 0;
