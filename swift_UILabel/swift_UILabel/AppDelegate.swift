@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  countdown
+//  swift_UILabel
 //
 //  Created by 姜峰 on 14-9-24.
 //  Copyright (c) 2014年 jfeng. All rights reserved.
@@ -12,11 +12,21 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-    let rvc = RootViewController()
-    self.window!.rootViewController = rvc
+
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+        
+        self.window!.makeKeyAndVisible()
+        
+        // 创建一个红色颜色
+        let color = UIColor.redColor()
+        
+        self.window!.backgroundColor = color
+        
+        let rvc = RootViewController()
+        self.window!.rootViewController = rvc
         return true
     }
 
