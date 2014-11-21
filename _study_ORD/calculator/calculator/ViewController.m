@@ -49,8 +49,9 @@
         Buttons.titleLabel.font = [UIFont systemFontOfSize: 40];
         [Buttons setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         Buttons.backgroundColor = [UIColor redColor];
+        [Buttons addTarget:self action:@selector(ButtonEvent:) forControlEvents:UIControlEventTouchUpInside];
+        [self.view setTag:111];
         [self.view addSubview:Buttons];
-        [Buttons addTarget:self action:@selector(ButtonEvent) forControlEvents:UIControlEventTouchUpInside];
     }
     [self.view addSubview:resultLabel];
 
@@ -62,10 +63,13 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (void)ButtonEvent
-{
-    NSLog(@"%@", self);
-    resultLabel.text = @"0";
+- (void)ButtonEvent:(id)sender {
+    NSString *labelValueString = resultLabel.text;
+    int labelValue = [labelValueString intValue];
+    NSLog(@"%d", labelValue);
+    UIButton *btn = (UIButton *)sender;
+    NSString *btnText = btn.titleLabel.text;
+    resultLabel.text = btnText;
 }
 
 @end
