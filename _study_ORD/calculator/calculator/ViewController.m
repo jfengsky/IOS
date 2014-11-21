@@ -52,31 +52,6 @@
         [self.view addSubview:Buttons];
         [Buttons addTarget:self action:@selector(ButtonEvent) forControlEvents:UIControlEventTouchUpInside];
     }
-    
-//    // 创建数字按钮0
-//    UIButton *Button0 = [[UIButton alloc] initWithFrame:CGRectMake(10, 80, height, width)];
-//    [Button0 setTitle:@"0" forState:UIControlStateNormal];
-//    Button0.titleLabel.font = [UIFont systemFontOfSize: 40];
-//    // Button0.font = [UIFont fontWithName:@"Arial" size:40];
-//    [Button0 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-//    Button0.backgroundColor = [UIColor  redColor];
-//    
-//    // 创建数字按钮1
-//    UIButton *Button1 = [[UIButton alloc] initWithFrame:CGRectMake(80, 80, 60, 60)];
-//    [Button1 setTitle:@"1" forState:UIControlStateNormal];
-//    Button1.titleLabel.font = [UIFont systemFontOfSize: 40];
-//    // Button0.font = [UIFont fontWithName:@"Arial" size:40];
-//    [Button1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-//    Button1.backgroundColor = [UIColor  redColor];
-//    
-//    // 创建数字2
-//    UIButton *Button2 = [[UIButton alloc] initWithFrame:CGRectMake(150, 80, 60, 60)];
-//    [Button2 setTitle:@"2" forState:UIControlStateNormal];
-//    Button2.titleLabel.font = [UIFont systemFontOfSize: 40];
-//    // Button0.font = [UIFont fontWithName:@"Arial" size:40];
-//    [Button2 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
-//    Button2.backgroundColor = [UIColor  redColor];
-    
     [self.view addSubview:resultLabel];
 
     
@@ -89,7 +64,7 @@
 
 - (void)ButtonEvent
 {
-    NSLog(@"0");
+    NSLog(@"%@", self);
     resultLabel.text = @"0";
 }
 
