@@ -7,20 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Person.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
-        int a = 11;
-        int b = 10;
-        int c = a + b;
+        Person *person;
+        person = [[Person alloc] initWithAge:30 identify:425423452];
         
-        char str1 = "A";
+        NSLog(@"%p", person);
         
-        NSString *str2 = @"abcdeft";
+        [person setAge:10];
         
-        NSLog(@"c: %d", c);
-        
-        NSLog(@"str2: %s", str1);
+        NSLog(@"age:%d", person.getAge);
     }
     return 0;
 }
