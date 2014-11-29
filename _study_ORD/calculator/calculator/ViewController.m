@@ -26,6 +26,7 @@
     resultLabel.textAlignment = 2;
     resultLabel.textColor = [UIColor blackColor];
     resultLabel.backgroundColor = [UIColor grayColor];
+    
     int height = 60;
     int width = 60;
     int space = 10;
@@ -53,6 +54,13 @@
         [self.view setTag:111];
         [self.view addSubview:Buttons];
     }
+    
+    // 创建+ = * / 和 c符号
+    NSArray *mathSymbol = [NSArray arrayWithObjects:@"+", @"-", @"*", @"/", @"c", nil];
+    for (NSString *simpleSymbol in mathSymbol) {
+        NSLog(@"%@", simpleSymbol);
+    }
+    
     [self.view addSubview:resultLabel];
 
     
