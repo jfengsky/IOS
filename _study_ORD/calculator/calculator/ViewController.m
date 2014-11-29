@@ -16,6 +16,7 @@
     UILabel *resultLabel;
 - (void)viewDidLoad {
     UIButton *Buttons;
+    UIButton *symbolButtons;
     NSString *nums;
     [super viewDidLoad];
     
@@ -51,14 +52,24 @@
         [Buttons setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
         Buttons.backgroundColor = [UIColor redColor];
         [Buttons addTarget:self action:@selector(ButtonEvent:) forControlEvents:UIControlEventTouchUpInside];
-        [self.view setTag:111];
         [self.view addSubview:Buttons];
     }
     
     // 创建+ = * / 和 c符号
-    NSArray *mathSymbol = [NSArray arrayWithObjects:@"+", @"-", @"*", @"/", @"c", nil];
+    NSArray *mathSymbol = [NSArray arrayWithObjects:@"c", @"+", @"-", @"*", @"/",@"=", nil];
+    int symbolButtonWidth = 90;
+    int symbolButtonHeight = 60;
+    int symbolStep = 1;
     for (NSString *simpleSymbol in mathSymbol) {
         NSLog(@"%@", simpleSymbol);
+        symbolButtons = [[UIButton alloc] initWithFrame:CGRectMake((width * 3 + space * 4), space + ( symbolButtonHeight + space) * symbolStep, symbolButtonWidth, symbolButtonHeight)];
+        [symbolButtons setTitle:simpleSymbol forState:UIControlStateNormal];
+        symbolButtons.titleLabel.font = [UIFont systemFontOfSize: 40];
+        [symbolButtons setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        symbolButtons.backgroundColor = [UIColor redColor];
+        symbolStep++;
+        [symbolButtons addTarget:self action:@selector(symbolButtonEvent:) forControlEvents:UIControlEventTouchUpInside];
+        [self.view addSubview:symbolButtons];
     }
     
     [self.view addSubview:resultLabel];
@@ -71,13 +82,30 @@
     // Dispose of any resources that can be recreated.
 }
 
+// 监听数字按键
 - (void)ButtonEvent:(id)sender {
     NSString *labelValueString = resultLabel.text;
     int labelValue = [labelValueString intValue];
     NSLog(@"%d", labelValue);
     UIButton *btn = (UIButton *)sender;
     NSString *btnText = btn.titleLabel.text;
+    
     resultLabel.text = btnText;
+}
+
+// 监听运算符按键
+- (void)symbolButtonEvent:(id)sender{
+    // NSString *symbolValueString = resultLabel.text;
+    UIButton *symbolEventButton = (UIButton *)sender;
+    NSString *symbolButtonEventValue = symbolEventButton.titleLabel.text;
+    
+    // 清0
+    NSString *symbolClear = @"c";
+    if ( symbolButtonEventValue == symbolClear ) {
+        resultLabel.text = @"0";
+    }
+    
+    
 }
 
 @end
