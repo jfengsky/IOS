@@ -22,7 +22,7 @@
     
     // 创建UILabel用于显示数字
     resultLabel = [[UILabel alloc] initWithFrame:CGRectMake(0, 20, 320, 60)];
-    resultLabel.text = @"1";
+    resultLabel.text = @"0";
     resultLabel.font = [UIFont systemFontOfSize: 40];
     resultLabel.textAlignment = 2;
     resultLabel.textColor = [UIColor blackColor];
@@ -84,13 +84,28 @@
 
 // 监听数字按键
 - (void)ButtonEvent:(id)sender {
+    int resultNumberValue = 0;
     NSString *labelValueString = resultLabel.text;
-    int labelValue = [labelValueString intValue];
-    NSLog(@"%d", labelValue);
+    int labeNumberlValue = [labelValueString intValue];
     UIButton *btn = (UIButton *)sender;
     NSString *btnText = btn.titleLabel.text;
+    int buttonNumberValue = [btnText intValue];
     
-    resultLabel.text = btnText;
+    if ( buttonNumberValue == 0 ) {
+        if ( labeNumberlValue == 0 ) {
+            resultNumberValue = 0;
+        } else {
+            resultNumberValue = labeNumberlValue * 10;
+        }
+    } else {
+        resultNumberValue = labeNumberlValue * 10 + buttonNumberValue;
+    }
+    
+    NSLog(@"%d", resultNumberValue);
+    
+    
+    
+    resultLabel.text = [[NSString alloc] initWithFormat:@"%d", resultNumberValue];
 }
 
 // 监听运算符按键
@@ -105,6 +120,11 @@
         resultLabel.text = @"0";
     }
     
+    // 加号 +
+    NSString *symbolAdd = @"+";
+//    if (symbolButtonEventValue == symbolAdd) {
+//        <#statements#>
+//    }
     
 }
 
