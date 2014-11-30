@@ -14,6 +14,8 @@
 
 @implementation ViewController
     UILabel *resultLabel;
+    int prevLabelValue = 0;
+
 - (void)viewDidLoad {
     UIButton *Buttons;
     UIButton *symbolButtons;
@@ -61,7 +63,6 @@
     int symbolButtonHeight = 60;
     int symbolStep = 1;
     for (NSString *simpleSymbol in mathSymbol) {
-        NSLog(@"%@", simpleSymbol);
         symbolButtons = [[UIButton alloc] initWithFrame:CGRectMake((width * 3 + space * 4), space + ( symbolButtonHeight + space) * symbolStep, symbolButtonWidth, symbolButtonHeight)];
         [symbolButtons setTitle:simpleSymbol forState:UIControlStateNormal];
         symbolButtons.titleLabel.font = [UIFont systemFontOfSize: 40];
@@ -101,7 +102,7 @@
         resultNumberValue = labeNumberlValue * 10 + buttonNumberValue;
     }
     
-    NSLog(@"%d", resultNumberValue);
+//    NSLog(@"%d", resultNumberValue);
     
     
     
@@ -114,27 +115,34 @@
     UIButton *symbolEventButton = (UIButton *)sender;
     NSString *symbolButtonEventValue = symbolEventButton.titleLabel.text;
     
-    // 清0
-    char symbolClear = "c";
-    char symbolAdd = "+";
+    int getLabeNumber = [symbolButtonEventValue intValue];
     
-//    switch (symbolButtonEventValue) {
-//        case symbolClear:
-//            resultLabel.text = @"0";
-//            break;
-//        default:
-//            NSLog(@"default");
-//            break;
-//    }
+    const char *symbolEventChar = [symbolButtonEventValue UTF8String];
+    const char *symbolClear = "c";
+    const char *symbolAdd = "+";
+    const char *symbolReduce = "-";
+    const char *symbolMultiply = "*";
+    const char *symbolDivision = "/";
+    const char *symbolEqual = "=";
     
-//    if ( symbolButtonEventValue == symbolClear ) {
-//        // 清0
-//        resultLabel.text = @"0";
-//    } else if (symbolButtonEventValue == symbolAdd) {
-//        // 加号 +
-//        NSLog(@"%@c", resultLabel.text);
-//    }
-
+    
+    if (symbolEventChar == symbolClear) {
+        // 清除
+        resultLabel.text = @"0";
+    } else if ( symbolEventChar == symbolAdd){
+        // 加
+        prevLabelValue = getLabeNumber;
+        NSLog(@"%@c", resultLabel.text);
+    } else if (symbolEventChar == symbolReduce){
+        // 减
+    } else if (symbolEventChar == symbolMultiply){
+        // 乘
+    } else if (symbolEventChar == symbolDivision){
+        // 除
+    } else if (symbolEventChar == symbolEqual){
+        // 等
+    }
+// he-hoyg-oi8
     
 }
 
