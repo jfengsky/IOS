@@ -115,16 +115,26 @@
     NSString *symbolButtonEventValue = symbolEventButton.titleLabel.text;
     
     // 清0
-    NSString *symbolClear = @"c";
-    if ( symbolButtonEventValue == symbolClear ) {
-        resultLabel.text = @"0";
-    }
+    char symbolClear = "c";
+    char symbolAdd = "+";
     
-    // 加号 +
-    NSString *symbolAdd = @"+";
-//    if (symbolButtonEventValue == symbolAdd) {
-//        <#statements#>
+//    switch (symbolButtonEventValue) {
+//        case symbolClear:
+//            resultLabel.text = @"0";
+//            break;
+//        default:
+//            NSLog(@"default");
+//            break;
 //    }
+    
+//    if ( symbolButtonEventValue == symbolClear ) {
+//        // 清0
+//        resultLabel.text = @"0";
+//    } else if (symbolButtonEventValue == symbolAdd) {
+//        // 加号 +
+//        NSLog(@"%@c", resultLabel.text);
+//    }
+
     
 }
 
