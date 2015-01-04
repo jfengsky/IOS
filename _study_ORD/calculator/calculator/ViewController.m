@@ -15,6 +15,7 @@
 @implementation ViewController
     UILabel *resultLabel;
     int prevLabelValue = 0;
+    int lastLabelValue = 0;
 
 - (void)viewDidLoad {
     UIButton *Buttons;
@@ -132,7 +133,9 @@
     } else if ( symbolEventChar == symbolAdd){
         // 加
         prevLabelValue = getLabeNumber;
-        NSLog(@"%@c", resultLabel.text);
+        
+        resultLabel.text = @"0";
+        NSLog(@"%@", resultLabel.text);
     } else if (symbolEventChar == symbolReduce){
         // 减
     } else if (symbolEventChar == symbolMultiply){
@@ -141,6 +144,7 @@
         // 除
     } else if (symbolEventChar == symbolEqual){
         // 等
+        resultLabel.text = prevLabelValue + resultLabel.text;
     }
 // he-hoyg-oi8
     
