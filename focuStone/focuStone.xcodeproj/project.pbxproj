@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B86AF5D1A615CA900FC1B6A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B86AF5C1A615CA900FC1B6A /* main.m */; };
+		8B86AF601A615CA900FC1B6A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B86AF5F1A615CA900FC1B6A /* AppDelegate.m */; };
+		8B86AF631A615CA900FC1B6A /* focuStone.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B86AF611A615CA900FC1B6A /* focuStone.xcdatamodeld */; };
+		8B86AF661A615CA900FC1B6A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B86AF651A615CA900FC1B6A /* ViewController.m */; };
+		8B86AF691A615CA900FC1B6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B86AF671A615CA900FC1B6A /* Main.storyboard */; };
+		8B86AF6B1A615CA900FC1B6A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B86AF6A1A615CA900FC1B6A /* Images.xcassets */; };
+		8B86AF6E1A615CA900FC1B6A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B86AF6C1A615CA900FC1B6A /* LaunchScreen.xib */; };
+		8B86AF7A1A615CA900FC1B6A /* focuStoneTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B86AF791A615CA900FC1B6A /* focuStoneTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B86AF741A615CA900FC1B6A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B86AF4F1A615CA900FC1B6A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B86AF561A615CA900FC1B6A;
+			remoteInfo = focuStone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B86AF571A615CA900FC1B6A /* focuStone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = focuStone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B86AF5B1A615CA900FC1B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B86AF5C1A615CA900FC1B6A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8B86AF5E1A615CA900FC1B6A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8B86AF5F1A615CA900FC1B6A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8B86AF621A615CA900FC1B6A /* focuStone.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = focuStone.xcdatamodel; sourceTree = "<group>"; };
+		8B86AF641A615CA900FC1B6A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8B86AF651A615CA900FC1B6A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8B86AF681A615CA900FC1B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B86AF6A1A615CA900FC1B6A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B86AF6D1A615CA900FC1B6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B86AF731A615CA900FC1B6A /* focuStoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = focuStoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B86AF781A615CA900FC1B6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B86AF791A615CA900FC1B6A /* focuStoneTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = focuStoneTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B86AF541A615CA900FC1B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B86AF701A615CA900FC1B6A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B86AF4E1A615CA900FC1B6A = {
+			isa = PBXGroup;
+			children = (
+				8B86AF591A615CA900FC1B6A /* focuStone */,
+				8B86AF761A615CA900FC1B6A /* focuStoneTests */,
+				8B86AF581A615CA900FC1B6A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B86AF581A615CA900FC1B6A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B86AF571A615CA900FC1B6A /* focuStone.app */,
+				8B86AF731A615CA900FC1B6A /* focuStoneTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B86AF591A615CA900FC1B6A /* focuStone */ = {
+			isa = PBXGroup;
+			children = (
+				8B86AF5E1A615CA900FC1B6A /* AppDelegate.h */,
+				8B86AF5F1A615CA900FC1B6A /* AppDelegate.m */,
+				8B86AF641A615CA900FC1B6A /* ViewController.h */,
+				8B86AF651A615CA900FC1B6A /* ViewController.m */,
+				8B86AF671A615CA900FC1B6A /* Main.storyboard */,
+				8B86AF6A1A615CA900FC1B6A /* Images.xcassets */,
+				8B86AF6C1A615CA900FC1B6A /* LaunchScreen.xib */,
+				8B86AF611A615CA900FC1B6A /* focuStone.xcdatamodeld */,
+				8B86AF5A1A615CA900FC1B6A /* Supporting Files */,
+			);
+			path = focuStone;
+			sourceTree = "<group>";
+		};
+		8B86AF5A1A615CA900FC1B6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B86AF5B1A615CA900FC1B6A /* Info.plist */,
+				8B86AF5C1A615CA900FC1B6A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B86AF761A615CA900FC1B6A /* focuStoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B86AF791A615CA900FC1B6A /* focuStoneTests.m */,
+				8B86AF771A615CA900FC1B6A /* Supporting Files */,
+			);
+			path = focuStoneTests;
+			sourceTree = "<group>";
+		};
+		8B86AF771A615CA900FC1B6A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B86AF781A615CA900FC1B6A /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B86AF561A615CA900FC1B6A /* focuStone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B86AF7D1A615CA900FC1B6A /* Build configuration list for PBXNativeTarget "focuStone" */;
+			buildPhases = (
+				8B86AF531A615CA900FC1B6A /* Sources */,
+				8B86AF541A615CA900FC1B6A /* Frameworks */,
+				8B86AF551A615CA900FC1B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = focuStone;
+			productName = focuStone;
+			productReference = 8B86AF571A615CA900FC1B6A /* focuStone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B86AF721A615CA900FC1B6A /* focuStoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B86AF801A615CA900FC1B6A /* Build configuration list for PBXNativeTarget "focuStoneTests" */;
+			buildPhases = (
+				8B86AF6F1A615CA900FC1B6A /* Sources */,
+				8B86AF701A615CA900FC1B6A /* Frameworks */,
+				8B86AF711A615CA900FC1B6A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B86AF751A615CA900FC1B6A /* PBXTargetDependency */,
+			);
+			name = focuStoneTests;
+			productName = focuStoneTests;
+			productReference = 8B86AF731A615CA900FC1B6A /* focuStoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B86AF4F1A615CA900FC1B6A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = www.ieake.com;
+				TargetAttributes = {
+					8B86AF561A615CA900FC1B6A = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					8B86AF721A615CA900FC1B6A = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 8B86AF561A615CA900FC1B6A;
+					};
+				};
+			};
+			buildConfigurationList = 8B86AF521A615CA900FC1B6A /* Build configuration list for PBXProject "focuStone" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B86AF4E1A615CA900FC1B6A;
+			productRefGroup = 8B86AF581A615CA900FC1B6A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B86AF561A615CA900FC1B6A /* focuStone */,
+				8B86AF721A615CA900FC1B6A /* focuStoneTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B86AF551A615CA900FC1B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B86AF691A615CA900FC1B6A /* Main.storyboard in Resources */,
+				8B86AF6E1A615CA900FC1B6A /* LaunchScreen.xib in Resources */,
+				8B86AF6B1A615CA900FC1B6A /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B86AF711A615CA900FC1B6A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B86AF531A615CA900FC1B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B86AF631A615CA900FC1B6A /* focuStone.xcdatamodeld in Sources */,
+				8B86AF601A615CA900FC1B6A /* AppDelegate.m in Sources */,
+				8B86AF661A615CA900FC1B6A /* ViewController.m in Sources */,
+				8B86AF5D1A615CA900FC1B6A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B86AF6F1A615CA900FC1B6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B86AF7A1A615CA900FC1B6A /* focuStoneTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B86AF751A615CA900FC1B6A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B86AF561A615CA900FC1B6A /* focuStone */;
+			targetProxy = 8B86AF741A615CA900FC1B6A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B86AF671A615CA900FC1B6A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B86AF681A615CA900FC1B6A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B86AF6C1A615CA900FC1B6A /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B86AF6D1A615CA900FC1B6A /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B86AF7B1A615CA900FC1B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B86AF7C1A615CA900FC1B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B86AF7E1A615CA900FC1B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = focuStone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B86AF7F1A615CA900FC1B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = focuStone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B86AF811A615CA900FC1B6A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = focuStoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/focuStone.app/focuStone";
+			};
+			name = Debug;
+		};
+		8B86AF821A615CA900FC1B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = focuStoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/focuStone.app/focuStone";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B86AF521A615CA900FC1B6A /* Build configuration list for PBXProject "focuStone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B86AF7B1A615CA900FC1B6A /* Debug */,
+				8B86AF7C1A615CA900FC1B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B86AF7D1A615CA900FC1B6A /* Build configuration list for PBXNativeTarget "focuStone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B86AF7E1A615CA900FC1B6A /* Debug */,
+				8B86AF7F1A615CA900FC1B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B86AF801A615CA900FC1B6A /* Build configuration list for PBXNativeTarget "focuStoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B86AF811A615CA900FC1B6A /* Debug */,
+				8B86AF821A615CA900FC1B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B86AF611A615CA900FC1B6A /* focuStone.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B86AF621A615CA900FC1B6A /* focuStone.xcdatamodel */,
+			);
+			currentVersion = 8B86AF621A615CA900FC1B6A /* focuStone.xcdatamodel */;
+			path = focuStone.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B86AF4F1A615CA900FC1B6A /* Project object */;
+}
