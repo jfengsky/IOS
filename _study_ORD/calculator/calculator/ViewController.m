@@ -138,6 +138,7 @@
         NSLog(@"%@", resultLabel.text);
     } else if (symbolEventChar == symbolReduce){
         // 减
+        prevLabelValue = getLabeNumber;
     } else if (symbolEventChar == symbolMultiply){
         // 乘
     } else if (symbolEventChar == symbolDivision){
