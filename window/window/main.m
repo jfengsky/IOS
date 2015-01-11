@@ -30,9 +30,6 @@ int main(int argc, const char * argv[]) {
         
         [NSApp run];
         
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
     }
     return 0;
 }
