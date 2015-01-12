@@ -12,7 +12,7 @@
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
-        NSApplication *app = [NSApplication sharedApplication];
+        // NSApplication *app = [NSApplication sharedApplication];
         
         NSRect rc = NSMakeRect(0, 0, 800, 600);
         
