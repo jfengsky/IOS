@@ -30,6 +30,12 @@
     [self.view addSubview:view2];
     
     
+    UIButton *button = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    button.frame = CGRectMake(100, 100, 100, 30);
+    
+    [button addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+    
+    [self.view addSubview:button];
     
     
     // Do any additional setup after loading the view, typically from a nib.
@@ -40,4 +46,28 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)buttonClick{
+    
+    [UIView beginAnimations:nil context:nil];
+    //持续时间
+    [UIView setAnimationDuration:4.0];
+    //在出动画的时候减缓速度
+    [UIView setAnimationCurve:UIViewAnimationCurveEaseOut];
+    //添加动画开始及结束的代理
+    [UIView setAnimationDelegate:self];
+    [UIView setAnimationWillStartSelector:@selector(begin)];
+    [UIView setAnimationDidStopSelector:@selector(stopAni)];
+    //动画效果
+    [UIView setAnimationTransition:UIViewAnimationTransitionCurlUp forView:self.view cache:YES];
+    [self.view exchangeSubviewAtIndex:0 withSubviewAtIndex:1];
+    [UIView commitAnimations];
+}
+
+- (void)begin{
+    NSLog(@"begin");
+}
+
+- (void)stopAni{
+    NSLog(@"stop");
+}
 @end
