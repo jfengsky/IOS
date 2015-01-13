@@ -1,6 +1,6 @@
 //
-//  tabbarTests.m
-//  tabbarTests
+//  UIViewTestTests.m
+//  UIViewTestTests
 //
 //  Created by jiang feng on 15/1/13.
 //  Copyright (c) 2015年 www.ieake.com. All rights reserved.
@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import <XCTest/XCTest.h>
 
-@interface tabbarTests : XCTestCase
+@interface UIViewTestTests : XCTestCase
 
 @end
 
-@implementation tabbarTests
+@implementation UIViewTestTests
 
 - (void)setUp {
     [super setUp];
