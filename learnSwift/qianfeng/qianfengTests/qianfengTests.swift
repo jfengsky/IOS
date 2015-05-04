@@ -1,15 +1,15 @@
 //
-//  sdfTests.swift
-//  sdfTests
+//  qianfengTests.swift
+//  qianfengTests
 //
-//  Created by jiang feng on 15/4/6.
+//  Created by jiang feng on 15/5/4.
 //  Copyright (c) 2015年 www.ieake.com. All rights reserved.
 //
 
 import UIKit
 import XCTest
 
-class sdfTests: XCTestCase {
+class qianfengTests: XCTestCase {
     
     override func setUp() {
         super.setUp()
