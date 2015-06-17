@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8BBE0E281AFB4A9D00093991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE0E271AFB4A9D00093991 /* main.m */; };
-		8BBE0E301AFB4AA900093991 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BBE0E2F1AFB4AA900093991 /* Person.m */; };
+		8B11AC681AFBA10300E31C39 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B11AC671AFBA10300E31C39 /* main.m */; };
+		8BFB6FBE1B15FA210092A12A /* NSArray+Convert.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFB6FBD1B15FA210092A12A /* NSArray+Convert.m */; };
+		8BFB6FC31B15FA630092A12A /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BFB6FC21B15FA630092A12A /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		8BBE0E221AFB4A9D00093991 /* CopyFiles */ = {
+		8B11AC621AFBA10300E31C39 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,14 +25,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		8BBE0E241AFB4A9D00093991 /* PersonGetSet */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = PersonGetSet; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BBE0E271AFB4A9D00093991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8BBE0E2E1AFB4AA900093991 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
-		8BBE0E2F1AFB4AA900093991 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		8B11AC641AFBA10300E31C39 /* NsNumber */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = NsNumber; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B11AC671AFBA10300E31C39 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BFB6FBC1B15FA210092A12A /* NSArray+Convert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Convert.h"; sourceTree = "<group>"; };
+		8BFB6FBD1B15FA210092A12A /* NSArray+Convert.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Convert.m"; sourceTree = "<group>"; };
+		8BFB6FC11B15FA510092A12A /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		8BFB6FC21B15FA630092A12A /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		8BBE0E211AFB4A9D00093991 /* Frameworks */ = {
+		8B11AC611AFBA10300E31C39 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -41,97 +44,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		8BBE0E1B1AFB4A9D00093991 = {
+		8B11AC5B1AFBA10300E31C39 = {
 			isa = PBXGroup;
 			children = (
-				8BBE0E261AFB4A9D00093991 /* PersonGetSet */,
-				8BBE0E251AFB4A9D00093991 /* Products */,
+				8B11AC661AFBA10300E31C39 /* NsNumber */,
+				8B11AC651AFBA10300E31C39 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		8BBE0E251AFB4A9D00093991 /* Products */ = {
+		8B11AC651AFBA10300E31C39 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				8BBE0E241AFB4A9D00093991 /* PersonGetSet */,
+				8B11AC641AFBA10300E31C39 /* NsNumber */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		8BBE0E261AFB4A9D00093991 /* PersonGetSet */ = {
+		8B11AC661AFBA10300E31C39 /* NsNumber */ = {
 			isa = PBXGroup;
 			children = (
-				8BBE0E271AFB4A9D00093991 /* main.m */,
-				8BBE0E2E1AFB4AA900093991 /* Person.h */,
-				8BBE0E2F1AFB4AA900093991 /* Person.m */,
+				8B11AC671AFBA10300E31C39 /* main.m */,
+				8BFB6FC11B15FA510092A12A /* Person.h */,
+				8BFB6FC21B15FA630092A12A /* Person.m */,
+				8BFB6FBC1B15FA210092A12A /* NSArray+Convert.h */,
+				8BFB6FBD1B15FA210092A12A /* NSArray+Convert.m */,
 			);
-			path = PersonGetSet;
+			path = NsNumber;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		8BBE0E231AFB4A9D00093991 /* PersonGetSet */ = {
+		8B11AC631AFBA10300E31C39 /* NsNumber */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 8BBE0E2B1AFB4A9D00093991 /* Build configuration list for PBXNativeTarget "PersonGetSet" */;
+			buildConfigurationList = 8B11AC6B1AFBA10300E31C39 /* Build configuration list for PBXNativeTarget "NsNumber" */;
 			buildPhases = (
-				8BBE0E201AFB4A9D00093991 /* Sources */,
-				8BBE0E211AFB4A9D00093991 /* Frameworks */,
-				8BBE0E221AFB4A9D00093991 /* CopyFiles */,
+				8B11AC601AFBA10300E31C39 /* Sources */,
+				8B11AC611AFBA10300E31C39 /* Frameworks */,
+				8B11AC621AFBA10300E31C39 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PersonGetSet;
-			productName = PersonGetSet;
-			productReference = 8BBE0E241AFB4A9D00093991 /* PersonGetSet */;
+			name = NsNumber;
+			productName = NsNumber;
+			productReference = 8B11AC641AFBA10300E31C39 /* NsNumber */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		8BBE0E1C1AFB4A9D00093991 /* Project object */ = {
+		8B11AC5C1AFBA10300E31C39 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = www.ieake.com;
 				TargetAttributes = {
-					8BBE0E231AFB4A9D00093991 = {
+					8B11AC631AFBA10300E31C39 = {
 						CreatedOnToolsVersion = 6.3.1;
 					};
 				};
 			};
-			buildConfigurationList = 8BBE0E1F1AFB4A9D00093991 /* Build configuration list for PBXProject "PersonGetSet" */;
+			buildConfigurationList = 8B11AC5F1AFBA10300E31C39 /* Build configuration list for PBXProject "NsNumber" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 8BBE0E1B1AFB4A9D00093991;
-			productRefGroup = 8BBE0E251AFB4A9D00093991 /* Products */;
+			mainGroup = 8B11AC5B1AFBA10300E31C39;
+			productRefGroup = 8B11AC651AFBA10300E31C39 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				8BBE0E231AFB4A9D00093991 /* PersonGetSet */,
+				8B11AC631AFBA10300E31C39 /* NsNumber */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		8BBE0E201AFB4A9D00093991 /* Sources */ = {
+		8B11AC601AFBA10300E31C39 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BBE0E301AFB4AA900093991 /* Person.m in Sources */,
-				8BBE0E281AFB4A9D00093991 /* main.m in Sources */,
+				8BFB6FC31B15FA630092A12A /* Person.m in Sources */,
+				8BFB6FBE1B15FA210092A12A /* NSArray+Convert.m in Sources */,
+				8B11AC681AFBA10300E31C39 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		8BBE0E291AFB4A9D00093991 /* Debug */ = {
+		8B11AC691AFBA10300E31C39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -173,7 +179,7 @@
 			};
 			name = Debug;
 		};
-		8BBE0E2A1AFB4A9D00093991 /* Release */ = {
+		8B11AC6A1AFBA10300E31C39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -208,14 +214,14 @@
 			};
 			name = Release;
 		};
-		8BBE0E2C1AFB4A9D00093991 /* Debug */ = {
+		8B11AC6C1AFBA10300E31C39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		8BBE0E2D1AFB4A9D00093991 /* Release */ = {
+		8B11AC6D1AFBA10300E31C39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -225,24 +231,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		8BBE0E1F1AFB4A9D00093991 /* Build configuration list for PBXProject "PersonGetSet" */ = {
+		8B11AC5F1AFBA10300E31C39 /* Build configuration list for PBXProject "NsNumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BBE0E291AFB4A9D00093991 /* Debug */,
-				8BBE0E2A1AFB4A9D00093991 /* Release */,
+				8B11AC691AFBA10300E31C39 /* Debug */,
+				8B11AC6A1AFBA10300E31C39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8BBE0E2B1AFB4A9D00093991 /* Build configuration list for PBXNativeTarget "PersonGetSet" */ = {
+		8B11AC6B1AFBA10300E31C39 /* Build configuration list for PBXNativeTarget "NsNumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				8BBE0E2C1AFB4A9D00093991 /* Debug */,
-				8BBE0E2D1AFB4A9D00093991 /* Release */,
+				8B11AC6C1AFBA10300E31C39 /* Debug */,
+				8B11AC6D1AFBA10300E31C39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 8BBE0E1C1AFB4A9D00093991 /* Project object */;
+	rootObject = 8B11AC5C1AFBA10300E31C39 /* Project object */;
 }
