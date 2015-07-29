@@ -1,45 +1,35 @@
 import UIKit
 
-var courses = [
-    76: "kec",
-    77: "cc3",
-    127: "ssadfa"
+let colors = [
+    "Air Force Blue": (red: 93, green: 138, blue: 168),
+    "Bittersweet": (red: 254, green: 111, blue: 94),
+    "Canary Yellow": (red: 255, green: 239, blue: 0)
 ]
 
-var website = [
-    "aaa": "bbb",
-    "ccc": "ddd"
-]
+var backView = UIView(frame: CGRectMake(0.0, 0.0, 320.0, CGFloat(colors.count * 50)));
 
-//var dict2:Dictionary<Int:String> = [];
+backView.backgroundColor = UIColor.blackColor();
 
-var dict3:[Int:String] = [222: "aaa"];
-
-var dict4 = Dictionary<Int,String>();
-
-var dict5 = [Int: String]();
-
-dict3 = [:];
-
-courses.count
-
-dict5.isEmpty
-
-var oldValue = courses.updateValue("rrrrrr", forKey: 76)
-
-
-courses
-
-//courses[77] = nil;
-
-//courses
-
-courses.removeValueForKey(127)
-
-for(key,value) in courses {
-    println(key)
-}
-
-for key in courses.keys {
+var index = 0;
+for (colorName, rgbTuple) in colors {
+    var colorStripe = UILabel(frame: CGRectMake(0.0, CGFloat(index * 50 + 5), 320.0, 40.0));
     
+    colorStripe.backgroundColor = UIColor(
+        red: CGFloat(rgbTuple.red) / 255.0,
+        green: CGFloat(rgbTuple.green) / 255.0,
+        blue: CGFloat(rgbTuple.green) / 255.0,
+        alpha: 1.0
+    );
+    colorStripe;
+    
+    var colorNameLabel = UILabel(frame: CGRectMake(0.0, 0.0, 300.0, 40.0));
+    colorNameLabel.font = UIFont(name: "Arial", size: 24.0);
+    colorNameLabel.textColor = UIColor.blackColor();
+    colorNameLabel.textAlignment = NSTextAlignment.Right;
+    colorNameLabel.text = colorName;
+    colorStripe.addSubview(colorNameLabel);
+    
+    backView.addSubview(colorStripe);
+    
+    index++;
 }
