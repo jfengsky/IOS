@@ -33,6 +33,10 @@ class ViewController: UIViewController {
         // 设置字体和大小
         textLabel.font = UIFont(name:"Thonburi",size:30);
         
+        let Color1 = UIColor(red:255,green:255,blue:0,alpha:1);
+        
+        
+        
         self.view.addSubview(textLabel)
         // Do any additional setup after loading the view, typically from a nib.
     }
