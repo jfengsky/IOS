@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B459D1A1B798DF100E1E2D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B459D191B798DF100E1E2D2 /* AppDelegate.swift */; };
+		8B459D1D1B798DF100E1E2D2 /* SLabel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B459D1B1B798DF100E1E2D2 /* SLabel.xcdatamodeld */; };
+		8B459D1F1B798DF100E1E2D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B459D1E1B798DF100E1E2D2 /* ViewController.swift */; };
+		8B459D221B798DF100E1E2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B459D201B798DF100E1E2D2 /* Main.storyboard */; };
+		8B459D241B798DF100E1E2D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B459D231B798DF100E1E2D2 /* Images.xcassets */; };
+		8B459D271B798DF100E1E2D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B459D251B798DF100E1E2D2 /* LaunchScreen.xib */; };
+		8B459D331B798DF200E1E2D2 /* SLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B459D321B798DF200E1E2D2 /* SLabelTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B459D2D1B798DF200E1E2D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B459D0C1B798DF100E1E2D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B459D131B798DF100E1E2D2;
+			remoteInfo = SLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B459D141B798DF100E1E2D2 /* SLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B459D181B798DF100E1E2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B459D191B798DF100E1E2D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B459D1C1B798DF100E1E2D2 /* SLabel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SLabel.xcdatamodel; sourceTree = "<group>"; };
+		8B459D1E1B798DF100E1E2D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B459D211B798DF100E1E2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B459D231B798DF100E1E2D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B459D261B798DF100E1E2D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B459D2C1B798DF200E1E2D2 /* SLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B459D311B798DF200E1E2D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B459D321B798DF200E1E2D2 /* SLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SLabelTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B459D111B798DF100E1E2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B459D291B798DF200E1E2D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B459D0B1B798DF100E1E2D2 = {
+			isa = PBXGroup;
+			children = (
+				8B459D161B798DF100E1E2D2 /* SLabel */,
+				8B459D2F1B798DF200E1E2D2 /* SLabelTests */,
+				8B459D151B798DF100E1E2D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B459D151B798DF100E1E2D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B459D141B798DF100E1E2D2 /* SLabel.app */,
+				8B459D2C1B798DF200E1E2D2 /* SLabelTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B459D161B798DF100E1E2D2 /* SLabel */ = {
+			isa = PBXGroup;
+			children = (
+				8B459D191B798DF100E1E2D2 /* AppDelegate.swift */,
+				8B459D1E1B798DF100E1E2D2 /* ViewController.swift */,
+				8B459D201B798DF100E1E2D2 /* Main.storyboard */,
+				8B459D231B798DF100E1E2D2 /* Images.xcassets */,
+				8B459D251B798DF100E1E2D2 /* LaunchScreen.xib */,
+				8B459D1B1B798DF100E1E2D2 /* SLabel.xcdatamodeld */,
+				8B459D171B798DF100E1E2D2 /* Supporting Files */,
+			);
+			path = SLabel;
+			sourceTree = "<group>";
+		};
+		8B459D171B798DF100E1E2D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B459D181B798DF100E1E2D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B459D2F1B798DF200E1E2D2 /* SLabelTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B459D321B798DF200E1E2D2 /* SLabelTests.swift */,
+				8B459D301B798DF200E1E2D2 /* Supporting Files */,
+			);
+			path = SLabelTests;
+			sourceTree = "<group>";
+		};
+		8B459D301B798DF200E1E2D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B459D311B798DF200E1E2D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B459D131B798DF100E1E2D2 /* SLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B459D361B798DF200E1E2D2 /* Build configuration list for PBXNativeTarget "SLabel" */;
+			buildPhases = (
+				8B459D101B798DF100E1E2D2 /* Sources */,
+				8B459D111B798DF100E1E2D2 /* Frameworks */,
+				8B459D121B798DF100E1E2D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SLabel;
+			productName = SLabel;
+			productReference = 8B459D141B798DF100E1E2D2 /* SLabel.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B459D2B1B798DF200E1E2D2 /* SLabelTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B459D391B798DF200E1E2D2 /* Build configuration list for PBXNativeTarget "SLabelTests" */;
+			buildPhases = (
+				8B459D281B798DF200E1E2D2 /* Sources */,
+				8B459D291B798DF200E1E2D2 /* Frameworks */,
+				8B459D2A1B798DF200E1E2D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B459D2E1B798DF200E1E2D2 /* PBXTargetDependency */,
+			);
+			name = SLabelTests;
+			productName = SLabelTests;
+			productReference = 8B459D2C1B798DF200E1E2D2 /* SLabelTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B459D0C1B798DF100E1E2D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = www.ieake.com;
+				TargetAttributes = {
+					8B459D131B798DF100E1E2D2 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8B459D2B1B798DF200E1E2D2 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8B459D131B798DF100E1E2D2;
+					};
+				};
+			};
+			buildConfigurationList = 8B459D0F1B798DF100E1E2D2 /* Build configuration list for PBXProject "SLabel" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B459D0B1B798DF100E1E2D2;
+			productRefGroup = 8B459D151B798DF100E1E2D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B459D131B798DF100E1E2D2 /* SLabel */,
+				8B459D2B1B798DF200E1E2D2 /* SLabelTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B459D121B798DF100E1E2D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B459D221B798DF100E1E2D2 /* Main.storyboard in Resources */,
+				8B459D271B798DF100E1E2D2 /* LaunchScreen.xib in Resources */,
+				8B459D241B798DF100E1E2D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B459D2A1B798DF200E1E2D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B459D101B798DF100E1E2D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B459D1F1B798DF100E1E2D2 /* ViewController.swift in Sources */,
+				8B459D1D1B798DF100E1E2D2 /* SLabel.xcdatamodeld in Sources */,
+				8B459D1A1B798DF100E1E2D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B459D281B798DF200E1E2D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B459D331B798DF200E1E2D2 /* SLabelTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B459D2E1B798DF200E1E2D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B459D131B798DF100E1E2D2 /* SLabel */;
+			targetProxy = 8B459D2D1B798DF200E1E2D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B459D201B798DF100E1E2D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B459D211B798DF100E1E2D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B459D251B798DF100E1E2D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B459D261B798DF100E1E2D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B459D341B798DF200E1E2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8B459D351B798DF200E1E2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B459D371B798DF200E1E2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B459D381B798DF200E1E2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SLabel/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B459D3A1B798DF200E1E2D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLabel.app/SLabel";
+			};
+			name = Debug;
+		};
+		8B459D3B1B798DF200E1E2D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SLabelTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SLabel.app/SLabel";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B459D0F1B798DF100E1E2D2 /* Build configuration list for PBXProject "SLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B459D341B798DF200E1E2D2 /* Debug */,
+				8B459D351B798DF200E1E2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B459D361B798DF200E1E2D2 /* Build configuration list for PBXNativeTarget "SLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B459D371B798DF200E1E2D2 /* Debug */,
+				8B459D381B798DF200E1E2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B459D391B798DF200E1E2D2 /* Build configuration list for PBXNativeTarget "SLabelTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B459D3A1B798DF200E1E2D2 /* Debug */,
+				8B459D3B1B798DF200E1E2D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B459D1B1B798DF100E1E2D2 /* SLabel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B459D1C1B798DF100E1E2D2 /* SLabel.xcdatamodel */,
+			);
+			currentVersion = 8B459D1C1B798DF100E1E2D2 /* SLabel.xcdatamodel */;
+			path = SLabel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B459D0C1B798DF100E1E2D2 /* Project object */;
+}
