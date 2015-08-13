@@ -36,7 +36,7 @@ class ViewController: UIViewController {
         let Color1 = UIColor(red:255,green:255,blue:0,alpha:1);
         
         
-        
+        // 把UILabel放入视图
         self.view.addSubview(textLabel)
         // Do any additional setup after loading the view, typically from a nib.
     }
