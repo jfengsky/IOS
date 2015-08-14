@@ -14,6 +14,9 @@
 		8BB2EA3B1B7DB92900A4AE4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB2EA3A1B7DB92900A4AE4E /* Images.xcassets */; };
 		8BB2EA3E1B7DB92900A4AE4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB2EA3C1B7DB92900A4AE4E /* LaunchScreen.xib */; };
 		8BB2EA4A1B7DB92900A4AE4E /* huahuaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2EA491B7DB92900A4AE4E /* huahuaTests.swift */; };
+		8BB2EA561B7DBEDA00A4AE4E /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB2EA551B7DBEDA00A4AE4E /* Icon-60@2x.png */; };
+		8BB2EA581B7DC04300A4AE4E /* Icon-60@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB2EA571B7DC04300A4AE4E /* Icon-60@3x.png */; };
+		8BB2EA5A1B7DC27900A4AE4E /* Launchportrait@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB2EA591B7DC27900A4AE4E /* Launchportrait@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,9 @@
 		8BB2EA431B7DB92900A4AE4E /* huahuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = huahuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BB2EA481B7DB92900A4AE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BB2EA491B7DB92900A4AE4E /* huahuaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = huahuaTests.swift; sourceTree = "<group>"; };
+		8BB2EA551B7DBEDA00A4AE4E /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		8BB2EA571B7DC04300A4AE4E /* Icon-60@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-60@3x.png"; sourceTree = "<group>"; };
+		8BB2EA591B7DC27900A4AE4E /* Launchportrait@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Launchportrait@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +89,7 @@
 				8BB2EA351B7DB92900A4AE4E /* ViewController.swift */,
 				8BB2EA371B7DB92900A4AE4E /* Main.storyboard */,
 				8BB2EA3A1B7DB92900A4AE4E /* Images.xcassets */,
+				8BB2EA541B7DBC8600A4AE4E /* icons */,
 				8BB2EA3C1B7DB92900A4AE4E /* LaunchScreen.xib */,
 				8BB2EA321B7DB92900A4AE4E /* huahua.xcdatamodeld */,
 				8BB2EA2E1B7DB92900A4AE4E /* Supporting Files */,
@@ -113,6 +120,16 @@
 				8BB2EA481B7DB92900A4AE4E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BB2EA541B7DBC8600A4AE4E /* icons */ = {
+			isa = PBXGroup;
+			children = (
+				8BB2EA591B7DC27900A4AE4E /* Launchportrait@3x.png */,
+				8BB2EA571B7DC04300A4AE4E /* Icon-60@3x.png */,
+				8BB2EA551B7DBEDA00A4AE4E /* Icon-60@2x.png */,
+			);
+			name = icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -196,8 +213,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8BB2EA391B7DB92900A4AE4E /* Main.storyboard in Resources */,
+				8BB2EA581B7DC04300A4AE4E /* Icon-60@3x.png in Resources */,
 				8BB2EA3E1B7DB92900A4AE4E /* LaunchScreen.xib in Resources */,
 				8BB2EA3B1B7DB92900A4AE4E /* Images.xcassets in Resources */,
+				8BB2EA561B7DBEDA00A4AE4E /* Icon-60@2x.png in Resources */,
+				8BB2EA5A1B7DC27900A4AE4E /* Launchportrait@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,9 +366,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = huahua/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -356,9 +378,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = huahua/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
