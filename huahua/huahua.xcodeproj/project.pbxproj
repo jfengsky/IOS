@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BB2EA311B7DB92900A4AE4E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2EA301B7DB92900A4AE4E /* AppDelegate.swift */; };
+		8BB2EA341B7DB92900A4AE4E /* huahua.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2EA321B7DB92900A4AE4E /* huahua.xcdatamodeld */; };
+		8BB2EA361B7DB92900A4AE4E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2EA351B7DB92900A4AE4E /* ViewController.swift */; };
+		8BB2EA391B7DB92900A4AE4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8BB2EA371B7DB92900A4AE4E /* Main.storyboard */; };
+		8BB2EA3B1B7DB92900A4AE4E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8BB2EA3A1B7DB92900A4AE4E /* Images.xcassets */; };
+		8BB2EA3E1B7DB92900A4AE4E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BB2EA3C1B7DB92900A4AE4E /* LaunchScreen.xib */; };
+		8BB2EA4A1B7DB92900A4AE4E /* huahuaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BB2EA491B7DB92900A4AE4E /* huahuaTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BB2EA441B7DB92900A4AE4E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BB2EA231B7DB92800A4AE4E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BB2EA2A1B7DB92800A4AE4E;
+			remoteInfo = huahua;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BB2EA2B1B7DB92900A4AE4E /* huahua.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = huahua.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB2EA2F1B7DB92900A4AE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB2EA301B7DB92900A4AE4E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8BB2EA331B7DB92900A4AE4E /* huahua.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = huahua.xcdatamodel; sourceTree = "<group>"; };
+		8BB2EA351B7DB92900A4AE4E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8BB2EA381B7DB92900A4AE4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8BB2EA3A1B7DB92900A4AE4E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8BB2EA3D1B7DB92900A4AE4E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8BB2EA431B7DB92900A4AE4E /* huahuaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = huahuaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BB2EA481B7DB92900A4AE4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8BB2EA491B7DB92900A4AE4E /* huahuaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = huahuaTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BB2EA281B7DB92800A4AE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB2EA401B7DB92900A4AE4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BB2EA221B7DB92800A4AE4E = {
+			isa = PBXGroup;
+			children = (
+				8BB2EA2D1B7DB92900A4AE4E /* huahua */,
+				8BB2EA461B7DB92900A4AE4E /* huahuaTests */,
+				8BB2EA2C1B7DB92900A4AE4E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BB2EA2C1B7DB92900A4AE4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BB2EA2B1B7DB92900A4AE4E /* huahua.app */,
+				8BB2EA431B7DB92900A4AE4E /* huahuaTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BB2EA2D1B7DB92900A4AE4E /* huahua */ = {
+			isa = PBXGroup;
+			children = (
+				8BB2EA301B7DB92900A4AE4E /* AppDelegate.swift */,
+				8BB2EA351B7DB92900A4AE4E /* ViewController.swift */,
+				8BB2EA371B7DB92900A4AE4E /* Main.storyboard */,
+				8BB2EA3A1B7DB92900A4AE4E /* Images.xcassets */,
+				8BB2EA3C1B7DB92900A4AE4E /* LaunchScreen.xib */,
+				8BB2EA321B7DB92900A4AE4E /* huahua.xcdatamodeld */,
+				8BB2EA2E1B7DB92900A4AE4E /* Supporting Files */,
+			);
+			path = huahua;
+			sourceTree = "<group>";
+		};
+		8BB2EA2E1B7DB92900A4AE4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB2EA2F1B7DB92900A4AE4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BB2EA461B7DB92900A4AE4E /* huahuaTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BB2EA491B7DB92900A4AE4E /* huahuaTests.swift */,
+				8BB2EA471B7DB92900A4AE4E /* Supporting Files */,
+			);
+			path = huahuaTests;
+			sourceTree = "<group>";
+		};
+		8BB2EA471B7DB92900A4AE4E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BB2EA481B7DB92900A4AE4E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BB2EA2A1B7DB92800A4AE4E /* huahua */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB2EA4D1B7DB92900A4AE4E /* Build configuration list for PBXNativeTarget "huahua" */;
+			buildPhases = (
+				8BB2EA271B7DB92800A4AE4E /* Sources */,
+				8BB2EA281B7DB92800A4AE4E /* Frameworks */,
+				8BB2EA291B7DB92800A4AE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = huahua;
+			productName = huahua;
+			productReference = 8BB2EA2B1B7DB92900A4AE4E /* huahua.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BB2EA421B7DB92900A4AE4E /* huahuaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BB2EA501B7DB92900A4AE4E /* Build configuration list for PBXNativeTarget "huahuaTests" */;
+			buildPhases = (
+				8BB2EA3F1B7DB92900A4AE4E /* Sources */,
+				8BB2EA401B7DB92900A4AE4E /* Frameworks */,
+				8BB2EA411B7DB92900A4AE4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BB2EA451B7DB92900A4AE4E /* PBXTargetDependency */,
+			);
+			name = huahuaTests;
+			productName = huahuaTests;
+			productReference = 8BB2EA431B7DB92900A4AE4E /* huahuaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BB2EA231B7DB92800A4AE4E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = www.ieake.com;
+				TargetAttributes = {
+					8BB2EA2A1B7DB92800A4AE4E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8BB2EA421B7DB92900A4AE4E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8BB2EA2A1B7DB92800A4AE4E;
+					};
+				};
+			};
+			buildConfigurationList = 8BB2EA261B7DB92800A4AE4E /* Build configuration list for PBXProject "huahua" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8BB2EA221B7DB92800A4AE4E;
+			productRefGroup = 8BB2EA2C1B7DB92900A4AE4E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BB2EA2A1B7DB92800A4AE4E /* huahua */,
+				8BB2EA421B7DB92900A4AE4E /* huahuaTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BB2EA291B7DB92800A4AE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB2EA391B7DB92900A4AE4E /* Main.storyboard in Resources */,
+				8BB2EA3E1B7DB92900A4AE4E /* LaunchScreen.xib in Resources */,
+				8BB2EA3B1B7DB92900A4AE4E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB2EA411B7DB92900A4AE4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BB2EA271B7DB92800A4AE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB2EA361B7DB92900A4AE4E /* ViewController.swift in Sources */,
+				8BB2EA311B7DB92900A4AE4E /* AppDelegate.swift in Sources */,
+				8BB2EA341B7DB92900A4AE4E /* huahua.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BB2EA3F1B7DB92900A4AE4E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BB2EA4A1B7DB92900A4AE4E /* huahuaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BB2EA451B7DB92900A4AE4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BB2EA2A1B7DB92800A4AE4E /* huahua */;
+			targetProxy = 8BB2EA441B7DB92900A4AE4E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BB2EA371B7DB92900A4AE4E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB2EA381B7DB92900A4AE4E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8BB2EA3C1B7DB92900A4AE4E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BB2EA3D1B7DB92900A4AE4E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BB2EA4B1B7DB92900A4AE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8BB2EA4C1B7DB92900A4AE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8BB2EA4E1B7DB92900A4AE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = huahua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8BB2EA4F1B7DB92900A4AE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = huahua/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8BB2EA511B7DB92900A4AE4E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = huahuaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/huahua.app/huahua";
+			};
+			name = Debug;
+		};
+		8BB2EA521B7DB92900A4AE4E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = huahuaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/huahua.app/huahua";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BB2EA261B7DB92800A4AE4E /* Build configuration list for PBXProject "huahua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB2EA4B1B7DB92900A4AE4E /* Debug */,
+				8BB2EA4C1B7DB92900A4AE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BB2EA4D1B7DB92900A4AE4E /* Build configuration list for PBXNativeTarget "huahua" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB2EA4E1B7DB92900A4AE4E /* Debug */,
+				8BB2EA4F1B7DB92900A4AE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BB2EA501B7DB92900A4AE4E /* Build configuration list for PBXNativeTarget "huahuaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BB2EA511B7DB92900A4AE4E /* Debug */,
+				8BB2EA521B7DB92900A4AE4E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8BB2EA321B7DB92900A4AE4E /* huahua.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8BB2EA331B7DB92900A4AE4E /* huahua.xcdatamodel */,
+			);
+			currentVersion = 8BB2EA331B7DB92900A4AE4E /* huahua.xcdatamodel */;
+			path = huahua.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8BB2EA231B7DB92800A4AE4E /* Project object */;
+}
