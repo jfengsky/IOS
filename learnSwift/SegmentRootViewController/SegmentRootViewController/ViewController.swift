@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  swiftTableView
+//  SegmentRootViewController
 //
 //  Created by jiang feng on 15/8/24.
 //  Copyright (c) 2015年 www.ieake.com. All rights reserved.

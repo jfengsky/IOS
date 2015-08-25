@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8B8E0CC71B8B10BB00BEDED5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E0CC61B8B10BB00BEDED5 /* AppDelegate.swift */; };
+		8B8E0CCA1B8B10BB00BEDED5 /* SegmentRootViewController.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E0CC81B8B10BB00BEDED5 /* SegmentRootViewController.xcdatamodeld */; };
+		8B8E0CCC1B8B10BB00BEDED5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E0CCB1B8B10BB00BEDED5 /* ViewController.swift */; };
+		8B8E0CCF1B8B10BB00BEDED5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E0CCD1B8B10BB00BEDED5 /* Main.storyboard */; };
+		8B8E0CD11B8B10BB00BEDED5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E0CD01B8B10BB00BEDED5 /* Images.xcassets */; };
+		8B8E0CD41B8B10BB00BEDED5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8B8E0CD21B8B10BB00BEDED5 /* LaunchScreen.xib */; };
+		8B8E0CE01B8B10BC00BEDED5 /* SegmentRootViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E0CDF1B8B10BC00BEDED5 /* SegmentRootViewControllerTests.swift */; };
+		8B8E0CEA1B8B10DC00BEDED5 /* SegmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B8E0CE91B8B10DC00BEDED5 /* SegmentViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8B8E0CDA1B8B10BC00BEDED5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8B8E0CB91B8B10BB00BEDED5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B8E0CC01B8B10BB00BEDED5;
+			remoteInfo = SegmentRootViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8B8E0CC11B8B10BB00BEDED5 /* SegmentRootViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SegmentRootViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8E0CC51B8B10BB00BEDED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B8E0CC61B8B10BB00BEDED5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8B8E0CC91B8B10BB00BEDED5 /* SegmentRootViewController.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SegmentRootViewController.xcdatamodel; sourceTree = "<group>"; };
+		8B8E0CCB1B8B10BB00BEDED5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8B8E0CCE1B8B10BB00BEDED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8B8E0CD01B8B10BB00BEDED5 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		8B8E0CD31B8B10BB00BEDED5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8B8E0CD91B8B10BC00BEDED5 /* SegmentRootViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SegmentRootViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B8E0CDE1B8B10BC00BEDED5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B8E0CDF1B8B10BC00BEDED5 /* SegmentRootViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentRootViewControllerTests.swift; sourceTree = "<group>"; };
+		8B8E0CE91B8B10DC00BEDED5 /* SegmentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SegmentViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8B8E0CBE1B8B10BB00BEDED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8E0CD61B8B10BC00BEDED5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8B8E0CB81B8B10BB00BEDED5 = {
+			isa = PBXGroup;
+			children = (
+				8B8E0CC31B8B10BB00BEDED5 /* SegmentRootViewController */,
+				8B8E0CDC1B8B10BC00BEDED5 /* SegmentRootViewControllerTests */,
+				8B8E0CC21B8B10BB00BEDED5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8B8E0CC21B8B10BB00BEDED5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8B8E0CC11B8B10BB00BEDED5 /* SegmentRootViewController.app */,
+				8B8E0CD91B8B10BC00BEDED5 /* SegmentRootViewControllerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8B8E0CC31B8B10BB00BEDED5 /* SegmentRootViewController */ = {
+			isa = PBXGroup;
+			children = (
+				8B8E0CC61B8B10BB00BEDED5 /* AppDelegate.swift */,
+				8B8E0CCB1B8B10BB00BEDED5 /* ViewController.swift */,
+				8B8E0CE91B8B10DC00BEDED5 /* SegmentViewController.swift */,
+				8B8E0CCD1B8B10BB00BEDED5 /* Main.storyboard */,
+				8B8E0CD01B8B10BB00BEDED5 /* Images.xcassets */,
+				8B8E0CD21B8B10BB00BEDED5 /* LaunchScreen.xib */,
+				8B8E0CC81B8B10BB00BEDED5 /* SegmentRootViewController.xcdatamodeld */,
+				8B8E0CC41B8B10BB00BEDED5 /* Supporting Files */,
+			);
+			path = SegmentRootViewController;
+			sourceTree = "<group>";
+		};
+		8B8E0CC41B8B10BB00BEDED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B8E0CC51B8B10BB00BEDED5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8B8E0CDC1B8B10BC00BEDED5 /* SegmentRootViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B8E0CDF1B8B10BC00BEDED5 /* SegmentRootViewControllerTests.swift */,
+				8B8E0CDD1B8B10BC00BEDED5 /* Supporting Files */,
+			);
+			path = SegmentRootViewControllerTests;
+			sourceTree = "<group>";
+		};
+		8B8E0CDD1B8B10BC00BEDED5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B8E0CDE1B8B10BC00BEDED5 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8B8E0CC01B8B10BB00BEDED5 /* SegmentRootViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B8E0CE31B8B10BC00BEDED5 /* Build configuration list for PBXNativeTarget "SegmentRootViewController" */;
+			buildPhases = (
+				8B8E0CBD1B8B10BB00BEDED5 /* Sources */,
+				8B8E0CBE1B8B10BB00BEDED5 /* Frameworks */,
+				8B8E0CBF1B8B10BB00BEDED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SegmentRootViewController;
+			productName = SegmentRootViewController;
+			productReference = 8B8E0CC11B8B10BB00BEDED5 /* SegmentRootViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8B8E0CD81B8B10BC00BEDED5 /* SegmentRootViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B8E0CE61B8B10BC00BEDED5 /* Build configuration list for PBXNativeTarget "SegmentRootViewControllerTests" */;
+			buildPhases = (
+				8B8E0CD51B8B10BC00BEDED5 /* Sources */,
+				8B8E0CD61B8B10BC00BEDED5 /* Frameworks */,
+				8B8E0CD71B8B10BC00BEDED5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B8E0CDB1B8B10BC00BEDED5 /* PBXTargetDependency */,
+			);
+			name = SegmentRootViewControllerTests;
+			productName = SegmentRootViewControllerTests;
+			productReference = 8B8E0CD91B8B10BC00BEDED5 /* SegmentRootViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8B8E0CB91B8B10BB00BEDED5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = www.ieake.com;
+				TargetAttributes = {
+					8B8E0CC01B8B10BB00BEDED5 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					8B8E0CD81B8B10BC00BEDED5 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 8B8E0CC01B8B10BB00BEDED5;
+					};
+				};
+			};
+			buildConfigurationList = 8B8E0CBC1B8B10BB00BEDED5 /* Build configuration list for PBXProject "SegmentRootViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8B8E0CB81B8B10BB00BEDED5;
+			productRefGroup = 8B8E0CC21B8B10BB00BEDED5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B8E0CC01B8B10BB00BEDED5 /* SegmentRootViewController */,
+				8B8E0CD81B8B10BC00BEDED5 /* SegmentRootViewControllerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8B8E0CBF1B8B10BB00BEDED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8E0CCF1B8B10BB00BEDED5 /* Main.storyboard in Resources */,
+				8B8E0CD41B8B10BB00BEDED5 /* LaunchScreen.xib in Resources */,
+				8B8E0CD11B8B10BB00BEDED5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8E0CD71B8B10BC00BEDED5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8B8E0CBD1B8B10BB00BEDED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8E0CEA1B8B10DC00BEDED5 /* SegmentViewController.swift in Sources */,
+				8B8E0CCC1B8B10BB00BEDED5 /* ViewController.swift in Sources */,
+				8B8E0CCA1B8B10BB00BEDED5 /* SegmentRootViewController.xcdatamodeld in Sources */,
+				8B8E0CC71B8B10BB00BEDED5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B8E0CD51B8B10BC00BEDED5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B8E0CE01B8B10BC00BEDED5 /* SegmentRootViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8B8E0CDB1B8B10BC00BEDED5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B8E0CC01B8B10BB00BEDED5 /* SegmentRootViewController */;
+			targetProxy = 8B8E0CDA1B8B10BC00BEDED5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8B8E0CCD1B8B10BB00BEDED5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B8E0CCE1B8B10BB00BEDED5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8B8E0CD21B8B10BB00BEDED5 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8B8E0CD31B8B10BB00BEDED5 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8B8E0CE11B8B10BC00BEDED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8B8E0CE21B8B10BC00BEDED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8B8E0CE41B8B10BC00BEDED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SegmentRootViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8B8E0CE51B8B10BC00BEDED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SegmentRootViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8B8E0CE71B8B10BC00BEDED5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SegmentRootViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SegmentRootViewController.app/SegmentRootViewController";
+			};
+			name = Debug;
+		};
+		8B8E0CE81B8B10BC00BEDED5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SegmentRootViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SegmentRootViewController.app/SegmentRootViewController";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8B8E0CBC1B8B10BB00BEDED5 /* Build configuration list for PBXProject "SegmentRootViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8E0CE11B8B10BC00BEDED5 /* Debug */,
+				8B8E0CE21B8B10BC00BEDED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8B8E0CE31B8B10BC00BEDED5 /* Build configuration list for PBXNativeTarget "SegmentRootViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8E0CE41B8B10BC00BEDED5 /* Debug */,
+				8B8E0CE51B8B10BC00BEDED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B8E0CE61B8B10BC00BEDED5 /* Build configuration list for PBXNativeTarget "SegmentRootViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B8E0CE71B8B10BC00BEDED5 /* Debug */,
+				8B8E0CE81B8B10BC00BEDED5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8B8E0CC81B8B10BB00BEDED5 /* SegmentRootViewController.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8B8E0CC91B8B10BB00BEDED5 /* SegmentRootViewController.xcdatamodel */,
+			);
+			currentVersion = 8B8E0CC91B8B10BB00BEDED5 /* SegmentRootViewController.xcdatamodel */;
+			path = SegmentRootViewController.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8B8E0CB91B8B10BB00BEDED5 /* Project object */;
+}
