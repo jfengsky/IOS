@@ -88,6 +88,7 @@
 		8BA198091BA2C7990039AE73 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = www.ieake.com;
 				TargetAttributes = {
@@ -236,6 +237,7 @@
 				8BA1981A1BA2C7990039AE73 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
