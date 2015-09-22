@@ -74,7 +74,7 @@ class ViewController: UIViewController {
       
       clubArray.append(tempClub)
       
-//      self.view.addSubview(tempClub.button)
+      self.view.addSubview(tempClub.button)
       
     }
     

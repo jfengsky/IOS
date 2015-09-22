@@ -32,6 +32,7 @@ func randomArrays(range: Range<Int>) -> [Int] {
     
     // 把抽取的元素插入另一个下标
     tempArray.insert(getOutNumber, atIndex: RandomInsertIndex)
+    
   }
   
   return tempArray
