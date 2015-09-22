@@ -34,6 +34,18 @@ class ViewController: UIViewController {
   override func viewDidLoad() {
     super.viewDidLoad()
     
+    var clubIdArray: [Int] = []
+    for (var i = 0; i < 48; i++){
+      clubIdArray.append(i)
+    }
+    
+//    print(clubIdArray)
+    
+    
+    for _ in 0...100 {
+      print(randomInRange(0...47))
+    }
+    
     // 获取屏幕的宽和高
     let screemWidth  = self.view.bounds.width
     let screemHeight = self.view.bounds.height
@@ -66,10 +78,16 @@ class ViewController: UIViewController {
       
     }
     
-    print(clubArray)
+//    print(clubArray)
     
   }
-
+  
+  // 生成随机数
+  func randomInRange(range: Range<Int>) -> Int {
+    let count = UInt32(range.endIndex - range.startIndex)
+    return  Int(arc4random_uniform(count)) + range.startIndex
+  }
+  
   override func didReceiveMemoryWarning() {
     super.didReceiveMemoryWarning()
     // Dispose of any resources that can be recreated.
