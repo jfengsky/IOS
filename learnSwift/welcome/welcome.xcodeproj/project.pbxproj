@@ -218,6 +218,7 @@
 				TargetAttributes = {
 					8B203A311BABA3500083D266 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = A5SKTLUGZB;
 					};
 					8B203A481BABA3500083D266 = {
 						CreatedOnToolsVersion = 7.0;
@@ -428,10 +429,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = welcome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ieake.welcome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -439,10 +443,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = welcome/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ieake.welcome;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -513,6 +520,7 @@
 				8B203A5F1BABA3510083D266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B203A601BABA3510083D266 /* Build configuration list for PBXNativeTarget "welcomeTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +529,7 @@
 				8B203A621BABA3510083D266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B203A631BABA3510083D266 /* Build configuration list for PBXNativeTarget "welcomeUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +538,7 @@
 				8B203A651BABA3510083D266 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
