@@ -46,29 +46,70 @@ class ViewController: UIViewController {
     print(tempRandomArray)
     
     
-    
     var clubArray: [Club] = []
+    var tempRandomIndex: Int = 0
     for(var rowIndex = 0; rowIndex < rowNumber; rowIndex++){
       for(var colIndex = 0; colIndex < colNumber; colIndex++){
-        clubArray.append(Club(size: (clubWidth, clubHeight), position: (rowIndex, colIndex)));
+        clubArray.append(Club(id: tempRandomArray[tempRandomIndex], size: (clubWidth, clubHeight), position: (rowIndex, colIndex)))
+        tempRandomIndex++
       }
     }
     
-//    for(var clubIndex = 0; clubIndex < totalClubNumbers; clubIndex++){
-//      clubArray.append(Club(size: (clubWidth, clubHeight), origin: (x: 0.0, y: 0.0)))
-//      print(clubArray[clubIndex].size)
-//    }
     
-//    print(clubArray)
+    for(var i = 0; i < rowNumber; i++){
+      for(var j = 0; j < colNumber; j++){
+//        clubArray.append(Club(size: (clubWidth, clubHeight), position: (x: i, y: j)))
+        print("[\(i),\(j)] = \(matrixClub[i, j])")
+      }
+    }
     
+    for(var i = 0; i < 12; i++){
+      let button = UIButton()
+      button.frame = CGRectMake(CGFloat(clubArray[i].origin.x), CGFloat(clubArray[i].origin.y), CGFloat(clubArray[i].size.width), CGFloat(clubArray[i].size.height))
+      button.backgroundColor = UIColor.grayColor()
+      button.setTitle(String(clubArray[i].id), forState:.Normal)
+      
+      // 最后一个矩形不显示
+      if( clubArray[i].id != totalClubNumbers - 1){
+        self.view.addSubview(button)
+        print(clubArray[i].canMoveDirection)
+      } else {
+        
+        // 设置不显示矩形四周的矩形移动属性
+        // print(clubArray[i].position)
+        
+        // 设置所有方块不可移动
+        clearMoveDirection(clubArray)
+        
+        // 设置四个方向的方块可移动属性
+        // 上方矩形 -> 下
+        if(clubArray[i].position.x != 0){
+          print(clubArray[i].position)
+          setMoveDirection( Int(clubArray[i].position.x - 1), y: Int(clubArray[i].position.y), _moveTo: "down")
+          // TODO
+        }
+        
+      }
+//      self.view.addSubview(button)
+    }
+//    print(clubArray[4].origin)
     
-//    for(var i = 0; i < colNumber; i++){
-//      for(var j = 0; j < rowNumber; j++){
-//        print("[\(i),\(j)] = \(matrixClub[i, j])")
-//      }
-//    }
 
   }
+  
+  // 格局序号设置矩形的移动方向
+  func setMoveDirection(x: Int, y: Int, _moveTo: String){
+    print("\(x),\(y)")
+  }
+  
+  
+  // 重置所有矩形移动方向为nil
+  func clearMoveDirection(_ClubArray:[Club]){
+    for(var i = 0; i < _ClubArray.count; i++){
+      _ClubArray[i].canMoveDirection = nil
+    }
+  }
+  
   
   // 洗牌算法,生成指定范围随机数组
   func randomArrays(range: Range<Int>) -> [Int] {
