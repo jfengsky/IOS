@@ -162,6 +162,7 @@
 		8B8E0CB91B8B10BB00BEDED5 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = www.ieake.com;
 				TargetAttributes = {
@@ -417,6 +418,7 @@
 				8B8E0CE51B8B10BC00BEDED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B8E0CE61B8B10BC00BEDED5 /* Build configuration list for PBXNativeTarget "SegmentRootViewControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +427,7 @@
 				8B8E0CE81B8B10BC00BEDED5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

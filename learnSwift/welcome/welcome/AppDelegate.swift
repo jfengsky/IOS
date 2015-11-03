@@ -18,17 +18,17 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     // Override point for customization after application launch.
     
-    if !NSUserDefaults.standardUserDefaults().boolForKey("firstLaunch") {
-      self.window?.rootViewController = ViewController()
-      self.window?.makeKeyAndVisible()
-      NSUserDefaults.standardUserDefaults().setBool(true, forKey:"firstLaunch")
-    } else {
-      let sb = UIStoryboard(name: "Main", bundle: nil)
-      let second = sb.instantiateViewControllerWithIdentifier("second") 
-      self.window?.rootViewController = second
-      self.window?.makeKeyAndVisible()
-      NSUserDefaults.standardUserDefaults().setBool(true, forKey:"firstLaunch")
-    }
+//    if !NSUserDefaults.standardUserDefaults().boolForKey("firstLaunch") {
+//      self.window?.rootViewController = ViewController()
+//      self.window?.makeKeyAndVisible()
+//      NSUserDefaults.standardUserDefaults().setBool(true, forKey:"firstLaunch")
+//    } else {
+//      let sb = UIStoryboard(name: "Main", bundle: nil)
+//      let second = sb.instantiateViewControllerWithIdentifier("second") 
+//      self.window?.rootViewController = second
+//      self.window?.makeKeyAndVisible()
+//      NSUserDefaults.standardUserDefaults().setBool(true, forKey:"firstLaunch")
+//    }
     
     return true
   }
