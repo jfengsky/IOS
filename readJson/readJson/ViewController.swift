@@ -13,10 +13,29 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var sp = NSSearchPathForDirectoriesInDomains(NSSearchPathDirectory.DocumentationDirectory, NSSearchPathDomainMask.AllDomainsMask, true)
-        print(sp)
+        // 读json文件
         
-        // Do any additional setup after loading the view, typically from a nib.
+        let filePath: String = NSBundle.mainBundle().pathForResource("pwd", ofType: "json")!
+        
+        let tempUrl = NSURL(fileURLWithPath: filePath)
+        
+        let nsData: NSData = NSData(contentsOfURL: tempUrl)!
+        
+        let tempJson: AnyObject? = try? NSJSONSerialization.JSONObjectWithData(nsData, options: NSJSONReadingOptions.AllowFragments)
+        
+        var tempName = tempJson?.objectForKey("name")
+        
+        print(tempName!)
+        
+        // 生成json格式
+        
+        var writeData = ["name": "jfeng", "age": 1]
+        
+        var jsonData = try? NSJSONSerialization.dataWithJSONObject(writeData, options: NSJSONWritingOptions())
+        
+        var str = NSString(data: jsonData!, encoding: NSUTF8StringEncoding)
+        
+        print(str!)
     }
 
     override func didReceiveMemoryWarning() {

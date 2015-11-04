@@ -159,6 +159,7 @@
 		8B459D0C1B798DF100E1E2D2 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0640;
 				ORGANIZATIONNAME = www.ieake.com;
 				TargetAttributes = {
@@ -415,6 +416,7 @@
 				8B459D381B798DF200E1E2D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B459D391B798DF200E1E2D2 /* Build configuration list for PBXNativeTarget "SLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -423,6 +425,7 @@
 				8B459D3B1B798DF200E1E2D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

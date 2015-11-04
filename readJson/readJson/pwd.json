@@ -1,0 +1,13 @@
+{
+  "name": "163Mail",
+  "pwd": "123456",
+  "list": [{
+        "key1": 1111,
+        "key2": true,
+        "key3": "abcdefg"
+    },{
+        "key1": 2222,
+        "key2": false,
+        "key3": "ddddd"
+    }]
+}
