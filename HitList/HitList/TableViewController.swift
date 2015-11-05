@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import CoreData
 
 class TableViewController: UITableViewController {
     
@@ -17,6 +18,9 @@ class TableViewController: UITableViewController {
                 let textField = alert.textFields![0] as UITextField
                 
                 self.names.append(textField.text!)
+                
+                self.saveName(textField.text!)
+                
                 self.tableView.reloadData()
                 
             }
@@ -39,8 +43,14 @@ class TableViewController: UITableViewController {
             
         }
     
+        func saveName(name: String) {
+            
+        }
+    
         // 保存姓名
         var names = [String]()
+    
+        var people = [NSManagedObject]()
     
         override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,14 +78,16 @@ class TableViewController: UITableViewController {
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return names.count
+        return people.count
     }
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCellWithIdentifier("cell", forIndexPath: indexPath)
         
-        cell.textLabel!.text = names[indexPath.row]
+        let person = people[indexPath.row]
+        
+        cell.textLabel!.text = person.valueForKey("name") as! String
         
         return cell
     }
